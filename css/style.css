@@ -76,6 +76,7 @@ header ul li a {
     font-style: normal
 }
 
+/*section 1*/
 .title_page {
     background-image: url(../images/logo2.jpg);
     background-size: cover;
@@ -219,18 +220,19 @@ header ul li a {
     margin-right: 30px;
     background: #FFFFFF;
     border-radius: 20px;
-
 }
+
 .why_we_are img {
     position: absolute;
     padding-top: 224px;
     margin-left: 100px;
 }
-.why_we_are h1{
+
+.why_we_are h1 {
     position: absolute;
     width: 195px;
     height: 24px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -238,21 +240,8 @@ header ul li a {
     padding-top: 300px;
     margin-left: 33px;
 }
-.why_we_are h2{
-    position: absolute;
-    width: 195px;
-    height: 24px;
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #373737;
-    padding-top: 310px;
-    margin-left: 31px;
-    align-items: center;
-}
 
-.why_we_are h4{
+.why_we_are h2 {
     position: absolute;
     width: 195px;
     height: 24px;
@@ -266,7 +255,7 @@ header ul li a {
     align-items: center;
 }
 
-.why_we_are h5{
+.why_we_are h4 {
     position: absolute;
     width: 195px;
     height: 24px;
@@ -280,8 +269,22 @@ header ul li a {
     align-items: center;
 }
 
-.why_we_are p{
-    font-family: 'Roboto',sans-serif;
+.why_we_are h5 {
+    position: absolute;
+    width: 195px;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #373737;
+    padding-top: 310px;
+    margin-left: 31px;
+    align-items: center;
+}
+
+.why_we_are p {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -291,6 +294,94 @@ header ul li a {
     margin-left: 33px;
     width: 195px;
     position: absolute;
+}
+
+/*section 4*/
+.portfolio {
+    padding-top: 1px;
+    height: 1184px;
+}
+
+.portfolio div {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1140px;
+    padding-top: 140px;
+}
+
+.portfolio h1 {
+    width: 410px;
+    height: 31px;
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+    margin-left: 90px;
+    position: absolute;
+}
+
+.portfolio h2 {
+    width: 330px;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    margin-top: 405px;
+    margin-left: 1px;
+    position: absolute;
+}
+
+.portfolio h3 {
+    width: 330px;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    margin-top: 405px;
+    margin-left: 1px;
+    position: absolute;
+}
+
+.portfolio p {
+    width: 540px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 1px;
+}
+
+.portfolio button {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 290px;
+    height: 70px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: -154px;
+    margin-top: 560px;
 }
 
 /*section 8*/
