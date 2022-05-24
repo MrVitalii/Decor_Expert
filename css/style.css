@@ -76,7 +76,6 @@ header ul li a {
     font-style: normal
 }
 
-/*section 1*/
 .title_page {
     background-image: url(../images/logo2.jpg);
     background-size: cover;
@@ -144,8 +143,6 @@ header ul li a {
 
 .back_img1 {
     width: 100%;
-    display: block;
-    border-image-repeat: unset;
 }
 
 .page2_main {
@@ -383,6 +380,153 @@ header ul li a {
     margin-left: -154px;
     margin-top: 560px;
 }
+
+/*section 5*/
+.choose_service{
+
+}
+
+/*section 6*/
+.catalog{
+    height: 1266px;
+}
+
+
+.catalog div{
+    max-width: 1000px;
+}
+
+.catalog h3{
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+    margin-top: 200px;
+    margin-left: 259px;
+    position: absolute;
+}
+
+.first_line{
+    display: flex;
+    margin-right: 163px;
+}
+
+.first_line img{
+    height: 255px;
+    width: 255px;
+    margin-top: 265px;
+    margin-left: 162px;
+}
+
+.second_line{
+    display: flex;
+    margin-right: 163px;
+}
+
+.second_line img{
+    height: 255px;
+    width: 255px;
+    margin-top: 30px;
+    margin-left: 162px;
+}
+
+.catalog p{
+    width: 255px;
+    height: 24px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    margin-left: 164px;
+}
+.catalog button{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 255px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    gap: 10px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: 755px;
+    margin-top: 90px;
+    border: none;
+}
+/*section 7*/
+.video{
+    background: #4C6071 url("../images/Mask_Group2.svg");
+    height: 630px;
+}
+.video h2{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 505px;
+    font-family: 'Gothic A1',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    width: 410px;
+    height: 31px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.video div{
+    display: flex;
+    justify-content: space-between;
+    width: 1070px;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.video img{
+    padding-right: 30px;
+    border-radius: 50px;
+}
+
+.video h1{
+    position: absolute;
+    width: 158px;
+    height: 24px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 275px;
+    margin-left: 10px;
+}
+
+
+.video p{
+    position: absolute;
+    width: 253px;
+    height: 48px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 300px;
+    margin-left: 10px;
+}
+
 
 /*section 8*/
 .last_page {
