@@ -20,6 +20,10 @@ header {
     justify-content: space-between;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 a {
     text-decoration: none
 }
@@ -382,67 +386,48 @@ header ul li a {
 }
 
 /*section 5*/
-.choose_service{
+.choose_service {
 
 }
 
 /*section 6*/
-.catalog{
+.catalog {
     height: 1266px;
 }
 
-.catalog div{
-    max-width: 1000px;
+.catalog_main {
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 400px;
+    max-width: 1100px;
+
 }
 
-.catalog h3{
-    font-family: 'Gothic A1',sans-serif;
+.catalog h3 {
+    font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 130%;
     color: #373737;
-    margin-top: 200px;
-    margin-left: 259px;
+    margin-top: 135px;
+    margin-left: 474px;
     position: absolute;
 }
 
-.first_line{
-    display: flex;
-    margin-right: 163px;
-}
-
-.first_line img{
-    height: 255px;
-    width: 255px;
-    margin-top: 265px;
-    margin-left: 162px;
-}
-
-.second_line{
-    display: flex;
-    margin-right: 163px;
-}
-
-.second_line img{
-    height: 255px;
-    width: 255px;
-    margin-top: 30px;
-    margin-left: 162px;
-}
-
-.catalog p{
+.catalog p {
     width: 255px;
     height: 24px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     color: #373737;
-    margin-left: 164px;
+    text-align: left;
 }
-.catalog button{
+
+.catalog button {
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -455,26 +440,28 @@ header ul li a {
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
-    margin-left: 755px;
+    margin-left: 855px;
     margin-top: 90px;
     border: none;
 }
+
 /*section 7*/
-.video{
+.video {
     background: #4C6071 url("../images/Mask_Group2.svg");
     height: 630px;
 }
-.video h2{
+
+.video h2 {
     position: absolute;
     padding-top: 60px;
     padding-left: 505px;
-    font-family: 'Gothic A1',sans-serif;
+    font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -484,7 +471,7 @@ header ul li a {
     color: #FFFFFF;
 }
 
-.video div{
+.video div {
     display: flex;
     justify-content: space-between;
     width: 1070px;
@@ -492,16 +479,16 @@ header ul li a {
     padding-top: 90px;
 }
 
-.video img{
+.video img {
     padding-right: 30px;
     border-radius: 50px;
 }
 
-.video h1{
+.video h1 {
     position: absolute;
     width: 158px;
     height: 24px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -512,11 +499,11 @@ header ul li a {
 }
 
 
-.video p{
+.video p {
     position: absolute;
     width: 253px;
     height: 48px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
