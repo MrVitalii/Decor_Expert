@@ -196,7 +196,7 @@ header ul li a {
 .why_we_are {
     height: 656px;
     background: #4C6071 url("../images/Mask_Group.png");
-    width: 100%;
+   padding-top: 150px;
 }
 
 .why_we_are h3 {
@@ -206,14 +206,16 @@ header ul li a {
     font-size: 24px;
     line-height: 130%;
     color: #FFFFFF;
+    position: absolute;
+    margin-top: -95px;
+    margin-left: 100px;
 }
 
 .columns {
     max-width: 865px;
-    align-items: center;
-    left: 165px;
-    display: flex;
+    margin: auto;
     position: relative;
+    padding-right: 215px;
 
 }
 
@@ -226,64 +228,67 @@ header ul li a {
     border-radius: 20px;
 }
 
-
 .why_we_are img {
     position: absolute;
-    padding-top: 224px;
+    padding-top: 50px;
     margin-left: 100px;
+}
+
+.why_we_are img:last-child{
+
 }
 
 .why_we_are h1 {
     position: absolute;
-    max-width: 195px;
+    width: 195px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     color: #373737;
-    padding-top: 300px;
+    padding-top: 130px;
     margin-left: 33px;
 }
 
 .why_we_are h2 {
     position: absolute;
-    max-width: 195px;
+    width: 195px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     color: #373737;
-    padding-top: 310px;
+    padding-top: 130px;
     margin-left: 31px;
     align-items: center;
 }
 
 .why_we_are h4 {
     position: absolute;
-    max-width: 195px;
+    width: 195px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     color: #373737;
-    padding-top: 310px;
+    padding-top: 130px;
     margin-left: 31px;
     align-items: center;
 }
 
 .why_we_are h5 {
     position: absolute;
-    max-width: 195px;
+    width: 195px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     color: #373737;
-    padding-top: 310px;
+    padding-top: 130px;
     margin-left: 31px;
     align-items: center;
 }
@@ -295,7 +300,7 @@ header ul li a {
     font-size: 16px;
     line-height: 150%;
     color: #373737;
-    top: 354px;
+    top: 195px;
     margin-left: 33px;
     width: 195px;
     position: absolute;
@@ -304,9 +309,7 @@ header ul li a {
 /*section 4*/
 .portfolio {
     padding-top: 1px;
-    height: 1184px;
-    max-width: 1440px;
-    width: 100%;
+   padding-bottom: 177px;
 }
 
 .portfolio div {
@@ -396,10 +399,8 @@ header ul li a {
 
 /*section 6*/
 .catalog {
-    height: 1266px;
-    margin: auto;
-    max-width: 1440px;
-    width: 100%;
+    padding-top: 255px;
+    padding-bottom: 150px;
 }
 
 .back_img2 {
@@ -409,10 +410,8 @@ header ul li a {
 
 .catalog_main {
     max-width: 1100px;
-    position: relative;
-    top: 337px;
-    left: 165px;
-
+    margin: auto;
+    margin-top: 300px;
 }
 
 .catalog h3 {
@@ -422,14 +421,12 @@ header ul li a {
     font-size: 24px;
     line-height: 130%;
     color: #373737;
-    position: relative;
-    top: 200px;
-    left: 259px;
-
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 105px;
 }
 
 .catalog p {
-    max-width: 255px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
