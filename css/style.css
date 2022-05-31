@@ -160,6 +160,7 @@ header ul li a {
 }
 
 .article_about_us {
+    max-width: 385px;
     font-style: normal;
     font-size: 20px;
     line-height: 150%;
