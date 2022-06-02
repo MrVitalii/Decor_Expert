@@ -693,29 +693,37 @@ header ul li a {
 }
 
 .video h2 {
-    position: absolute;
     margin: auto;
+    padding-bottom: 87px;
+    padding-left: 94px;
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    max-width: 410px;
-    height: 31px;
     line-height: 130%;
     color: #FFFFFF;
+    width: 100%;
 }
 
-.video div {
+.video article{
+    max-width: 255px;
+    margin: 14px;
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+.video .container {
     display: flex;
     justify-content: space-between;
     max-width: 1070px;
     margin: auto;
     padding-top: 90px;
+    flex-wrap: wrap;
 }
 
 .video img {
-    padding-right: 30px;
-    border-radius: 50px;
+    display: block;
+    width: 100%;
 }
 
 .video h1 {
@@ -744,6 +752,29 @@ header ul li a {
     color: #FFFFFF;
     margin-top: 300px;
     margin-left: 10px;
+}
+
+.owl-nav .owl-prev:after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 20px;
+    content: "\f060";
+    color: white;
+    margin-right: 40px;
+}
+
+.owl-nav .owl-next:after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 20px;
+    content: "\f061";
+    color: white;
+}
+
+.owl-nav{
+    position: absolute;
+    right: 83px;
+    top:-52px;
 }
 
 /*section 8*/
