@@ -707,7 +707,7 @@ header ul li a {
 
 .video article{
     max-width: 255px;
-    overflow: hidden;
+    margin: 0 15px;
 }
 
 .video .container {
@@ -736,11 +736,11 @@ header ul li a {
     line-height: 150%;
     color: #FFFFFF;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 7px;
 }
 
 .video p {
-    max-width: 253px;
+    width: 253px;
     height: 48px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -749,7 +749,7 @@ header ul li a {
     line-height: 150%;
     color: #FFFFFF;
     padding-top: 52px;
-    padding-left: 10px;
+    padding-left: 7px;
     padding-bottom: 95px;
 }
 
