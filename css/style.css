@@ -707,8 +707,6 @@ header ul li a {
 
 .video article{
     max-width: 255px;
-    margin: 14px;
-    border-radius: 22px;
     overflow: hidden;
 }
 
@@ -724,6 +722,7 @@ header ul li a {
 .video img {
     display: block;
     width: 100%;
+    border-radius: 22px;
 }
 
 .video h1 {
@@ -736,12 +735,11 @@ header ul li a {
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
-    margin-top: 275px;
-    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .video p {
-    position: absolute;
     max-width: 253px;
     height: 48px;
     font-family: 'Roboto', sans-serif;
@@ -750,8 +748,9 @@ header ul li a {
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
-    margin-top: 300px;
-    margin-left: 10px;
+    padding-top: 52px;
+    padding-left: 10px;
+    padding-bottom: 95px;
 }
 
 .owl-nav .owl-prev:after{
